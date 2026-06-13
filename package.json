@@ -1,0 +1,28 @@
+{
+  "name": "sawaari",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint resources/js --fix"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13",
+    "alpinejs": "^3.13.10",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.6.5",
+    "eslint": "^8.55.0",
+    "laravel-vite-plugin": "^1.0.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "chart.js": "^4.4.1",
+    "sweetalert2": "^11.10.4"
+  }
+}
